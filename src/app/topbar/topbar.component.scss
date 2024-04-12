@@ -1,0 +1,139 @@
+a {
+    cursor: pointer;
+}
+
+.elementor-container {
+    background-color: #414146;
+}
+
+.navbar-container {
+    margin-left: 11rem;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+.nav-item {
+    padding: 8px;
+}
+
+/* Show the dropdown menu when hovering over the parent li element */
+.nav-item:hover .dropdown-menu {
+    display: block;
+}
+
+.nav-item {
+    font-weight: 700;
+}
+
+/* Style the dropdown menu */
+.dropdown-menu {
+    position: absolute;
+    background-color: #333;
+    // border: 1px solid #ccc;
+    padding: 10px;
+}
+
+/* Style the dropdown items */
+.dropdown-item {
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    color: #f0f0f0;
+}
+
+/* Change styles on item hover */
+.dropdown-item:hover {
+    background-color: #1E2952;
+}
+
+.w3-bar-item {
+    padding: 1.8rem 1.2rem;
+    font-size: 15px;
+}
+
+/* Remove default hover background color */
+.w3-top .w3-bar-item:hover {
+    background-color: transparent !important;
+}
+
+.w3-top .w3-bar-item:hover {
+    transform: scale(1.1); /* Zoom effect */
+    transition: transform 0.3s ease; /* Smooth transition */
+    color: #1E2952; /* Highlight color */
+    font-weight: bold;
+}
+.w3-top {
+    display: flex;
+}
+
+.w3-links {
+    display: flex;
+    flex-direction: row;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: black;
+    // padding: 10px 16px; /* Adjust as needed */
+    background-color: inherit;
+    font-family: inherit;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    right: 0;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+/* Responsive styles using media queries */
+/* Responsive styles using media queries */
+@media (max-width: 767px) {
+    .col-sm-4 {
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
+    // .col-sm-3 {
+    //     flex: 0 0 25%;
+    //     max-width: 25%;
+    // }
+    
+    .landingPage{
+        margin-top: 4rem;
+    }
+    .clients {
+        display: none;
+    }
+    .responsiveLogo {
+        margin: auto; /* Center horizontally */
+        display: block; /* Ensure it's displayed as a block element */
+    }
+    .w3-top {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+.header{
+    color:#f48420;
+    font-size: 35px;
+    font-weight: bold;
+}

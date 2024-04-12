@@ -1,0 +1,37 @@
+//footer
+.main-footer {
+    // background-color:#414146;
+    width:100%;
+    // color:#f0f9ff;
+}
+.main-footer p {
+    font-size: 14px;
+    // margin-bottom: 20px;
+    color: #b7b7b7;
+}
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.copyright{
+    background-color:rgb(25, 25, 33);
+    width:100%;
+    color: #b7b7b7;
+    padding: 1rem;
+    text-align: center;
+}
+
+.mail {
+    color: #b7b7b7 !important;
+  }
+  
+  a {
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  i{
+    font-size: 24px;
+  }
